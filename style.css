@@ -1,0 +1,39 @@
+.design{
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 270px;
+    display: flex;
+    transition: 1s;
+}
+
+
+.design img{
+    height: 300px;
+    width: 200px;
+}
+.design:hover{
+    height: 300px;
+    width: 400px;
+    border-radius: 0%;
+  
+    color: white;
+    opacity: 1;
+  
+    
+ 
+
+}
+.design .text{
+   
+    opacity: 0;
+}
+.design:hover .text{
+    margin-top: 90px;
+    color: white;
+    opacity: 1;
+    transition: 2s;
+
+}
