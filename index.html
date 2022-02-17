@@ -6,11 +6,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="style.css">
+    <link href="./css/all.min.css" rel="stylesheet"> <!--load all styles -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
+<nav class="navigation">
+  <div  onclick="showMenu()">Menu <span><i class='bx bx-right-arrow-alt'></i></span></div>
+  <div class="navi">
+    <a href="#">Home</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+
+  </div>
+  
+
+</nav>
       <div class="design">
        <div><img src="images/cocacola_2.png"></div> 
         <div class="text">
@@ -22,7 +35,50 @@
 
       </div>
 
+      
+      <div class="open">
+          <span onclick="open()">Menu</span>
+          <div class="sub_1">home</div>
+          <div class="sub_2">product</div>
+          <div class="sub_3">l</div>
+          <div class="sub_4">l</div>
+          <div class="sub_5">o</div>
+      </div>
+     
 
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<button onclick="circle()">round</button>
+<div id="round">
+
+hello
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+if(comment.style.transform == 0){
+  for (let i =  comment.style.transform; i < 3; i++) {
+      comment.style.transform = 'rotate(360deg)';
+    }
+  
+  
+
+}
+else{
+  comment.style.color = 'aqua';
+
+}
+
+<br>
+<br>
     <script src="index.js"></script>
       
     <!-- Optional JavaScript -->

@@ -1,3 +1,7 @@
-let dog = document.querySelector('.design');
-let comment = document.querySelector('.design');
-comment.getElementsByClassName('design').backroungColor = blue;
+function circle(){
+    let get = document.getElementById('round');
+    let comment = document.getElementById('round');
+    comment.style.color = 'white';
+    comment.style.transform += 'rotate(360deg)';
+ 
+}

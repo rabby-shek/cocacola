@@ -1,3 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.navigation{
+    width: 100%;
+    height: 50px;
+    background-color:black;
+    color: white;
+}
+.navigation i{
+    color: white;
+}
+.navigation .navi{
+    float: right;
+    margin-right: 70%;
+    padding-top: -10px;
+    
+    
+}
+.navigation .navi a{
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+    
+    
+}
 .design{
     background-color: black;
     height: 200px;
@@ -37,3 +66,70 @@
     transition: 2s;
 
 }
+.open{
+    margin-top: 300px;
+    margin-left: 50%;
+    cursor: pointer;
+    height: 40px;
+    width: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-items: center;
+   
+}
+.open .sub_1{
+    color: red;
+    margin-left: 60px;
+    margin-top:-18px;
+    opacity: 0;
+    transition: 1s;
+}
+.open:hover .sub_1{
+    color: red;
+    margin-left: 100px;
+    opacity: 1;
+}
+.open .sub_2{
+    color: red;
+    margin-left: -65px;
+    margin-top: -25px;
+    opacity: 0;
+    transition: 1s;
+  
+
+}
+.open:hover .sub_2{
+    color: red;
+    margin-left: -200px;
+
+    opacity: 1;
+}
+.open .sub_3{
+    color: red;
+    opacity: 0;
+}
+
+.open .sub_4{
+    color: red;
+    opacity: 0;
+   
+}
+.open .sub_5{
+    color: red;
+    opacity: 0;
+   
+}
+
+#round{
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    transition: 3s;
+    /* IE 9 */
+}
+
